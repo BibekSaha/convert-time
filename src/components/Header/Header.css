@@ -1,0 +1,34 @@
+.Header {
+  background-color: black;
+  color: white;
+  padding: 1.2rem;
+}
+
+.Header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .Header-wrapper h1{
+    font-size: 1.2rem;
+  }
+
+  .Header-wrapper h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid white;
+    padding: 3px 7px;
+    border-radius: 3px;
+  }
+
+  .Header-wrapper {
+    width: 95%;
+  }
+}

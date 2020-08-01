@@ -1,0 +1,39 @@
+.TimeInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 0;
+}
+
+.TimeInput input {
+  padding: 10px 1.2rem;
+  margin-right: 20px;
+  border: 3px solid black;
+  font-size: x-large;
+  font-weight: bold;
+  width: 30rem;
+}
+
+.TimeInput select {
+  font-size: x-large;
+  padding: 10px 1.2rem;
+  border: 3px solid black;
+  font-weight: 500;
+}
+
+@media (max-width: 500px) {
+  .TimeInput {
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+  .TimeInput input {
+    width: 80%;
+    font-size: large;
+    margin: 0 auto;
+  }
+
+  .TimeInput select {
+    margin-top: 20px;
+    font-size: large;
+  }
+}

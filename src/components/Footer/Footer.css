@@ -1,0 +1,14 @@
+.footer {
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer svg {
+  padding: 10px 15px 0px 15px;
+}
+
+.footer svg:hover {
+  transform: scale(1.15);
+  fill: #333;
+}

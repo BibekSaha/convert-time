@@ -1,0 +1,10 @@
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+::selection {
+  background-color: #222;
+  color: white;
+}
